@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Banner azul imponente">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="360" viewBox="0 0 1200 360" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Banner azul imponente">
   <defs>
     <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0%" stop-color="#002E6B"/>
@@ -40,11 +40,13 @@
     <text x="60" y="170" font-size="20" font-weight="500" opacity="0.95">Desarrollador Full‑Stack · Data · DevOps — Construyo productos que escalan</text>
   </g>
 
-  <!-- "Botón" o CTA visual -->
-  <g transform="translate(60,210)">
-    <rect width="220" height="44" rx="10" fill="#003B8A" opacity="0.95"/>
-    <text x="110" y="30" fill="#BFE9FF" font-size="16" font-weight="600" text-anchor="middle">Ver proyectos destacados</text>
-  </g>
+  <!-- "Botón" o CTA visual enlazado -->
+  <a href="https://alonsorios.dev" target="_blank" rel="noopener" xlink:href="https://alonsorios.dev">
+    <g transform="translate(60,210)" style="cursor:pointer;">
+      <rect width="220" height="44" rx="10" fill="#003B8A" opacity="0.95"/>
+      <text x="110" y="30" fill="#BFE9FF" font-size="16" font-weight="600" text-anchor="middle">Ver proyectos destacados</text>
+    </g>
+  </a>
 
   <!-- Sombra inferior -->
   <rect y="320" width="1200" height="40" fill="black" opacity="0.06"/>
