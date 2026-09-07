@@ -1,3 +1,5 @@
+![Banner de portada](./banner.svg)
+
 # Hola 👋, soy mrgab0
 
 ![avatar](https://github.com/mrgab0.png)
@@ -8,7 +10,7 @@ Breve frase de 1 línea sobre lo que haces y qué valor aportas (ej: "Construyo 
 <!-- Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/tu-perfil)
 [![Twitter](https://img.shields.io/badge/Twitter-@tu_handle-1DA1F2?logo=twitter&style=for-the-badge)](https://twitter.com/tu_handle)
-[![Website](https://img.shields.io/badge/Website-Portfolio-ff69b4?style=for-the-badge)](https://tu-sitio.example)
+[![Website](https://img.shields.io/badge/Website-Portfolio-0066FF?style=for-the-badge)](https://tu-sitio.example)
 
 ---
 
@@ -27,11 +29,11 @@ Trabajando en: Proyecto X — descripción breve de valor / stack.
 - [Proyecto-B](https://github.com/mrgab0/proyecto-b) — 2 frases con stack y resultado.
 
 ## 📈 GitHub Stats
-<img align="left" alt="mrgab0's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=mrgab0&show_icons=true&theme=radical" />
-<img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrgab0&layout=compact&theme=radical" />
+<img align="left" alt="mrgab0's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=mrgab0&show_icons=true&theme=blue" />
+<img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrgab0&layout=compact&theme=blue" />
 
 <!-- GitHub trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=mrgab0&theme=radical" alt="trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=mrgab0&theme=blue" alt="trophies" />
 
 ---
 
@@ -40,6 +42,6 @@ Trabajando en: Proyecto X — descripción breve de valor / stack.
 - Disponibilidad: abierto a freelance / tiempo completo / proyectos (marca lo que aplique)
 
 Gracias por pasar — si quieres, puedo:
-1) Crear el repo mrgab0/mrgab0 con este README listo.  
-2) Añadir las tarjetas de estadísticas (ya configuradas con tu usuario).  
-3) Opcional: añadir workflow para actualizar "Última actualización" automáticamente cada día.
+1) Crear el repo `mrgab0/mrgab0` y subir este README.  
+2) Añadir un workflow para actualizar "Última actualización" automáticamente cada día.  
+3) Ajustar la paleta azul (ej. un azul más oscuro o un degradado) y añadir un banner azul personalizado.
