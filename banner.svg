@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="360" viewBox="0 0 1200 360" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Banner azul imponente">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="360" viewBox="0 0 1200 360" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Banner azul imponente con gradiente animado">
   <defs>
     <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#002E6B"/>
-      <stop offset="45%" stop-color="#0066FF"/>
-      <stop offset="100%" stop-color="#00A0FF"/>
+      <stop offset="0%" stop-color="#002E6B">
+        <animate attributeName="stop-color" dur="8s" repeatCount="indefinite" values="#002E6B;#003B8A;#0057CC;#002E6B" />
+      </stop>
+      <stop offset="45%" stop-color="#0066FF">
+        <animate attributeName="stop-color" dur="8s" repeatCount="indefinite" values="#0066FF;#0088FF;#00A0FF;#0066FF" />
+      </stop>
+      <stop offset="100%" stop-color="#00A0FF">
+        <animate attributeName="stop-color" dur="8s" repeatCount="indefinite" values="#00A0FF;#66D9FF;#88E0FF;#00A0FF" />
+      </stop>
     </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="20" result="b"/>
@@ -13,15 +19,20 @@
     <pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.5" fill="rgba(255,255,255,0.06)"/>
     </pattern>
+    <clipPath id="circleClip"><circle cx="1080" cy="90" r="60"/></clipPath>
   </defs>
 
-  <!-- Fondo en gradiente -->
+  <!-- Fondo en gradiente animado -->
   <rect width="1200" height="360" fill="url(#g1)"/>
 
-  <!-- Capas geométricas para profundidad -->
-  <g opacity="0.18" filter="url(#glow)">
-    <ellipse cx="960" cy="60" rx="380" ry="120" fill="#00C0FF"/>
-    <ellipse cx="240" cy="340" rx="420" ry="140" fill="#003B8A"/>
+  <!-- Capas geométricas para profundidad con movimiento sutil -->
+  <g opacity="0.22" filter="url(#glow)">
+    <ellipse cx="960" cy="60" rx="380" ry="120" fill="#00C0FF">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -8 6; 0 0" dur="6s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="240" cy="340" rx="420" ry="140" fill="#003B8A">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 6 -4; 0 0" dur="7s" repeatCount="indefinite" />
+    </ellipse>
   </g>
 
   <!-- Patrón sutil -->
@@ -40,11 +51,14 @@
     <text x="60" y="170" font-size="20" font-weight="500" opacity="0.95">Desarrollador Full‑Stack · Data · DevOps — Construyo productos que escalan</text>
   </g>
 
+  <!-- Avatar circular (opcional visual) -->
+  <image xlink:href="https://github.com/mrgab0.png" x="1020" y="30" width="120" height="120" clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice" />
+
   <!-- "Botón" o CTA visual enlazado -->
   <a href="https://alonsorios.dev" target="_blank" rel="noopener" xlink:href="https://alonsorios.dev">
     <g transform="translate(60,210)" style="cursor:pointer;">
       <rect width="220" height="44" rx="10" fill="#003B8A" opacity="0.95"/>
-      <text x="110" y="30" fill="#BFE9FF" font-size="16" font-weight="600" text-anchor="middle">Ver proyectos destacados</text>
+      <text x="110" y="30" fill="#BFE9FF" font-size="16" font-weight="600" text-anchor="middle">Ver portfolio</text>
     </g>
   </a>
 
