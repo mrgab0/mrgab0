@@ -25,8 +25,9 @@ Breve frase de 1 línea sobre lo que haces y qué valor aportas (ej: "Construyo 
 Trabajando en: Proyecto X — descripción breve de valor / stack.
 
 ## ⭐ Proyectos destacados
-- [Proyecto-A](https://github.com/mrgab0/proyecto-a) — 2 frases (qué hace, por qué importa).
-- [Proyecto-B](https://github.com/mrgab0/proyecto-b) — 2 frases con stack y resultado.
+- [Flower For You LLC](https://flowerforyoullc.com) — Sitio web corporativo y catálogo de productos para florería; diseño responsive y contacto/ordenes.
+- [Gabriela's Flowers LLC](https://gabrielasflowersllc.com) — Plataforma informativa y catálogo online con enfoque en experiencia móvil y SEO.
+- [Bon Bon Flowers Houston](https://bonbonflowershouston.com/) — Sitio de presentación y contacto para servicios florales en Houston.
 
 ## 📈 GitHub Stats
 <img align="left" alt="mrgab0's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=mrgab0&show_icons=true&theme=blue" />
@@ -42,6 +43,6 @@ Trabajando en: Proyecto X — descripción breve de valor / stack.
 - Disponibilidad: abierto a freelance / tiempo completo / proyectos (marca lo que aplique)
 
 Gracias por pasar — si quieres, puedo:
-1) Crear el repo `mrgab0/mrgab0` y subir este README.  
-2) Añadir un workflow para actualizar "Última actualización" automáticamente cada día.  
-3) Ajustar la paleta azul (ej. un azul más oscuro o un degradado) y añadir un banner azul personalizado.
+1) Añadir capturas (screenshots) de estos proyectos junto al listado.  
+2) Crear tarjetas visuales (con mini-preview) para cada proyecto en el README.  
+3) Añadir un workflow que actualice "Última actualización" automáticamente cada día.
