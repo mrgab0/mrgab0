@@ -1,0 +1,44 @@
+/* styles for full-page gradient hero */
+:root{
+  --bg1:#002E6B;
+  --bg2:#0066FF;
+  --bg3:#00A0FF;
+  --glass: rgba(255,255,255,0.06);
+  --accent: #BFE9FF;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial;color:#fff}
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(120deg,var(--bg1),var(--bg2),var(--bg3));
+  background-size:600% 600%;
+  animation: gradientShift 12s ease infinite;
+}
+@keyframes gradientShift{
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+.overlay{
+  width:min(1100px,94%);
+  background:linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  border-radius:14px;
+  padding:36px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.35);
+  backdrop-filter: blur(6px);
+}
+.avatar{width:96px;height:96px;border-radius:50%;float:right;object-fit:cover;border:3px solid rgba(255,255,255,0.12)}
+h1{margin:0;font-size:34px;letter-spacing:0.3px}
+.tag{margin-top:8px;color:var(--accent);font-weight:500}
+.ctas{margin-top:18px}
+.btn{display:inline-block;padding:10px 16px;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.12);color:#fff;text-decoration:none;margin-right:10px}
+.btn.primary{background:rgba(0,0,0,0.12);border:1px solid rgba(255,255,255,0.08)}
+.projects{display:flex;gap:12px;margin-top:22px;flex-wrap:wrap}
+.card{flex:1 1 32%;min-width:220px;background:rgba(0,0,0,0.12);padding:14px;border-radius:10px;text-decoration:none;color:#fff;border:1px solid rgba(255,255,255,0.04)}
+.card h3{margin:0 0 6px 0}
+.card p{margin:0;font-size:13px;opacity:0.95}
+.meta{margin-top:18px;color:rgba(255,255,255,0.75);font-size:13px}
+@media(max-width:800px){.projects{flex-direction:column}.avatar{float:none;margin:0 0 12px 0}}
