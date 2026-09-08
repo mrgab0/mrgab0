@@ -38,7 +38,7 @@ Trabajando en: Proyecto X — descripción breve de valor / stack.
 ---
 
 ## 📬 Contacto
-- Email: tu.email@example.com
+- Email: [iirockalonso@gmail.com](mailto:iirockalonso@gmail.com)
 - Disponibilidad: abierto a freelance / tiempo completo / proyectos (marca lo que aplique)
 
 Gracias por pasar — si quieres, puedo:
